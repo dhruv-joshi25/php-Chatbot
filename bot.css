@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 900px;
+  margin: 50px auto;
+  background: #f3f4f6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+  padding: 20px;
+  background: #3b82f6;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#conversation {
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.user-message {
+  background: #3b82f6;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.bot-message {
+  background: #295bac;
+  color: white;
+  align-self: flex-start;
+}
+
+#inputArea {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background: #f3f4f6;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#userInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: #295bac 2px solid;
+  outline: none;
+}
+
+#send {
+  padding: 10px 20px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
